@@ -1,7 +1,36 @@
 body {
-    background: #92e9f3;
+    background: #949d9e;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     width:100%;
 }
+
+p {
+    padding: 20px;
+    margin: 0;
+    color: #000;
+    text-align: auto;
+  }
+  
+
+.navbar-form { 
+    color: rgb(116, 186, 162);
+    font-weight: bold;
+    background: #a6e3e9;
+  }
+
+  .big_img {
+    max-width: 55%;
+    max-height: 55%;
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .small_img {
+    max-width:49%;
+    max-height:50%;
+    padding: 15px;
+  }
