@@ -11,14 +11,29 @@ p {
     margin: 0;
     color: #000;
     text-align: auto;
+    font-size: large;
   }
-  
 
 .navbar-form { 
-    color: rgb(116, 186, 162);
-    font-weight: bold;
-    background: #a6e3e9;
+    margin-left: 10px;
+    color: white;
+    padding: 15px;
+    background-color: rgb(81, 175, 160);
+    font-family: 'Times New Roman';
+    font-size: 25px;
   }
+
+  .navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+
+
+.dropdown-menu {
+    margin: 0;
+}
 
   .big_img {
     max-width: 55%;
