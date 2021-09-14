@@ -1,9 +1,17 @@
 body {
-    background: #949d9e;
+    background: #ffffff;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     width:100%;
+}
+
+h1{
+  margin: 0;
+  color: rgb(81, 175, 160);
+  text-align: auto;
+  font-size: x-large;
+
 }
 
 p {
@@ -48,4 +56,19 @@ p {
     max-width:49%;
     max-height:50%;
     padding: 15px;
+  }
+
+  @media (max-width: 600px) {
+    .navbar.bg-light {
+      background-color: rgb(81, 175, 160);
+      padding: 10px;
+    }
+  
+    .navbar ul {
+      visibility: hidden;
+    }
+  
+    #nav-select {
+      visibility: visible;
+    }
   }
