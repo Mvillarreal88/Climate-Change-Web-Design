@@ -1,0 +1,89 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Dashboard</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-form" href="index.html">Latitude</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+    
+    
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item dropdown ml-auto">
+                    <a class="nav-link dropdown-toggle navbar-custom" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Plots</a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="MaxTemp.html">Max Temperature</a>
+                        <a class="dropdown-item" href="Humidity.html">Humidity</a>
+                        <a class="dropdown-item" href="Cloudiness.html">Cloudiness</a>
+                        <a class="dropdown-item" href="WindSpeed.html">Wind Speed</a>
+                    </div>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link navbar-custom" href="Comparison.html">Comparison</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link navbar-custom" href="Data.html">Data</a>
+                </li>                   
+            </ul>
+        </div>
+    </nav>
+
+    <br>
+
+    <div class="row">
+        <div class="col-md-1"></div>
+
+        <div class="col-md-6 content">
+            
+            <h1>Wind Speed in the Northern Hemisphere</h1>
+            <hr>
+            <article>
+                <img src="Resources/assets/Visualizations/Fig3.png" alt="Cloudiness graphic" class="big_img" width=50% style="float: middle">
+                <br>
+                <p>In the above graphic we display the Wind Speed in relation to latitude in the Northern Hemisphere. One thing I would like to note is we dont see a high wind speed in the Northern Hemisphere, with most speeds under 15mph. I also was able to pull a linear regression model on this map to illustrate trends we are observing.</p>
+            </article>
+        </div>
+        
+        
+
+        <div class="col-md-3 content">
+            <h1>Visualizations</h1>
+            <article>
+            <hr>
+                <a href="MaxTemp.html">
+                    <img src="Resources/assets/Visualizations/Fig1.png" alt="Temperature graphic" class="small_img">
+                </a>
+                <a href="Humidity.html">
+                    <img src="Resources/assets/Visualizations/Fig2.png" alt="Humidity graphic" class="small_img">
+                </a>
+                <a href="Cloudiness.html">
+                    <img src="Resources/assets/Visualizations/Fig3.png" alt="Cloudiness graphic" class="small_img">
+                </a>
+                <a href="WindSpeed.html">
+                    <img src="Resources/assets/Visualizations/Fig4.png" alt="WindSpeed graphic" class="small_img">
+                </a>
+            </article>
+        </div>
+        <div class="col-md-1"></div>
+    <div>
+
+</body>
+</html>

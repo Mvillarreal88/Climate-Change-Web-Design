@@ -9,10 +9,26 @@ body {
 h1{
   margin: 0;
   color: rgb(81, 175, 160);
-  text-align: auto;
+  text-align: center;
   font-size: x-large;
 
 }
+
+.card-header{
+    margin: 0;
+    color: rgb(81, 175, 160);
+    text-align: center;
+    font-size: large;
+  
+  }
+
+table{
+  padding-top:50px;
+  padding-bottom:50px;
+  padding-right:50px;
+  padding-left:50px;
+}
+
 
 p {
     padding: 20px;
@@ -56,19 +72,4 @@ p {
     max-width:49%;
     max-height:50%;
     padding: 15px;
-  }
-
-  @media (max-width: 600px) {
-    .navbar.bg-light {
-      background-color: rgb(81, 175, 160);
-      padding: 10px;
-    }
-  
-    .navbar ul {
-      visibility: hidden;
-    }
-  
-    #nav-select {
-      visibility: visible;
-    }
   }
